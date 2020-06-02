@@ -28,6 +28,9 @@ end
 class Club < Item
 end
 
+class Distance < Item
+end
+
 class Helmet < Item
 end
 
@@ -66,6 +69,7 @@ module Scraper
       Scraper::Axes.execute
       Scraper::Boots.execute
       Scraper::Clubs.execute
+      Scraper::Distances.execute
       Scraper::Helmets.execute
       Scraper::Legs.execute
       Scraper::Rods.execute
