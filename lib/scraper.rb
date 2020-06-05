@@ -7,7 +7,7 @@ require 'open-uri'
 ActiveRecord::Base.establish_connection(
     adapter:  'postgresql',
     host:     'localhost',
-    database: 'scraper'
+    database: 'tibia_palace_development'
 )
 
 class Item < ActiveRecord::Base
